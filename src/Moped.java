@@ -1,7 +1,7 @@
 /**
  * Created by Keith on 3/28/17.
  */
-public class Car {
+public class Moped {
     String maker;
     int highSpeed;
     int milesPerGallon;
