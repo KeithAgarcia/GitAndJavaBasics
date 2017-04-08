@@ -2,9 +2,9 @@
  * Created by Keith on 3/28/17.
  */
 public class Car {
-    String maker;
-    int highSpeed;
-    int milesPerGallon;
-    int yearMake;
-    boolean expensive;
+    String brand;
+    int maxSpeed;
+    int mpg;
+    int year;
+    int price;
 }
