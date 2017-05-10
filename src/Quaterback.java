@@ -13,7 +13,9 @@ public class Quaterback {
     }
 
     public void setName(String name) {
-        this.name = name;
+        if (name.contains("Cam Newton")){
+            this.name = name;
+        }
     }
 
     public int getLongPass() {

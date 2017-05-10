@@ -13,7 +13,9 @@ public class Plane {
     }
 
     public void setMaker(String maker) {
-        this.maker = maker;
+        if(maker.contains("Boeing")) {
+             this.maker = maker;
+        }
     }
 
     public int getHighSpeed() {

@@ -13,7 +13,9 @@ public class Restaurant {
     }
 
     public void setType(String type) {
-        this.type = type;
+        if(type.contains("Mexican")) {
+            System.out.println("That food is nasty");
+        }
     }
 
     public String getName() {
@@ -45,6 +47,8 @@ public class Restaurant {
     }
 
     public void setRating(int rating) {
-        this.rating = rating;
+        if(rating < 4) {
+           System.out.println("That movie sucks!");
+        }
     }
 }

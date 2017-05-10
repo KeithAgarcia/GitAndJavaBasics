@@ -21,7 +21,9 @@ public class Shirt {
     }
 
     public void setMenOrWomen(String menOrWomen) {
-        this.menOrWomen = menOrWomen;
+        if(menOrWomen.contains("men")) {
+            this.menOrWomen = menOrWomen;
+        }
     }
 
     public String getSize() {

@@ -29,7 +29,9 @@ public class Movie {
     }
 
     public void setYear(int year) {
-        this.year = year;
+        if(year > 1976) {
+            System.out.println("That's old.");
+        }
     }
 
     public String getMainActor() {
